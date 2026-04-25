@@ -1,0 +1,1076 @@
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html> <http://purl.org/dc/elements/1.1/creator> "Miguel Ángel Gata Luján" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html> <http://purl.org/dc/elements/1.1/description> "Ontology modelling the European catalogue of medical devices and in vitro diagnostics under MDR (EU 2017/745) and IVDR (EU 2017/746) regulatory frameworks, including manufacturers, risks, incidents and field safety corrective actions registered in EUDAMED." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html> <http://purl.org/dc/elements/1.1/title> "European Medical Device Catalogue Ontology (EMDCO)" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
+<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/1999/02/22-rdf-syntax-ns#ID
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/11/swrl#argument1
+<http://www.w3.org/2003/11/swrl#argument1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/11/swrl#argument2
+<http://www.w3.org/2003/11/swrl#argument2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/11/swrl#body
+<http://www.w3.org/2003/11/swrl#body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/11/swrl#classPredicate
+<http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/11/swrl#head
+<http://www.w3.org/2003/11/swrl#head> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/11/swrl#propertyPredicate
+<http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#addressesIncident
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#addressesIncident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#addressesIncident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#addressesIncident> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#addressesIncident> <http://www.w3.org/2000/01/rdf-schema#range> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#addressesIncident> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a field safety corrective action to the incident it addresses." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#addressesIncident> <http://www.w3.org/2000/01/rdf-schema#label> "addresses incident" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionType
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionType> <http://www.w3.org/2000/01/rdf-schema#range> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActionType> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionType> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an FSCA to its type of corrective action." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionType> <http://www.w3.org/2000/01/rdf-schema#label> "has action type" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCompetentAuthority
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCompetentAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCompetentAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#range> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CompetentAuthority> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a manufacturer to the national competent authority that supervises it." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#label> "has competent authority" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCountry
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCountry> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCountry> <http://www.w3.org/2000/01/rdf-schema#range> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Country> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a manufacturer to the country where it is registered." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCountry> <http://www.w3.org/2000/01/rdf-schema#label> "has country" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRegulatoryFramework
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRegulatoryFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRegulatoryFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRegulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRegulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#range> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RegulatoryFramework> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRegulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a medical device to the EU regulation under which it is classified." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRegulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#label> "has regulatory framework" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskClass
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskClass> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskClass> <http://www.w3.org/2000/01/rdf-schema#range> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RiskClass> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskClass> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a medical device to its regulatory risk classification." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskClass> <http://www.w3.org/2000/01/rdf-schema#label> "has risk class" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasSeverity
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasSeverity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasSeverity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasSeverity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasSeverity> <http://www.w3.org/2000/01/rdf-schema#range> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeverityLevel> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasSeverity> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a risk to its severity level." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasSeverity> <http://www.w3.org/2000/01/rdf-schema#label> "has severity" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasStatus
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasStatus> <http://www.w3.org/2000/01/rdf-schema#range> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCAStatus> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an FSCA to its current status." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasStatus> <http://www.w3.org/2000/01/rdf-schema#label> "has status" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice> <http://www.w3.org/2000/01/rdf-schema#range> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an incident to the medical device involved." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice> <http://www.w3.org/2000/01/rdf-schema#label> "involves device" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a medical device to its registered manufacturer." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is manufactured by" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isRelatedToRisk
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isRelatedToRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isRelatedToRisk> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isRelatedToRisk> <http://www.w3.org/2000/01/rdf-schema#range> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isRelatedToRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an incident to the risk that materialised." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isRelatedToRisk> <http://www.w3.org/2000/01/rdf-schema#label> "is related to risk" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#reportedBy
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#reportedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#reportedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#reportedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#reportedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an incident to the manufacturer that reported it." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#reportedBy> <http://www.w3.org/2000/01/rdf-schema#label> "reported by" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionDate
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The date on which the FSCA was initiated." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionDate> <http://www.w3.org/2000/01/rdf-schema#label> "has action date" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasAuthorizationNumber
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasAuthorizationNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasAuthorizationNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasAuthorizationNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasAuthorizationNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasAuthorizationNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "The official registration number issued by the competent authority." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasAuthorizationNumber> <http://www.w3.org/2000/01/rdf-schema#label> "has authorization number" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasClosureDate
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasClosureDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasClosureDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasClosureDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasClosureDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The date on which the FSCA was closed." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasClosureDate> <http://www.w3.org/2000/01/rdf-schema#label> "has closure date" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasContactEmail
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasContactEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasContactEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasContactEmail> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasContactEmail> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasContactEmail> <http://www.w3.org/2000/01/rdf-schema#comment> "The regulatory contact email of the manufacturer." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasContactEmail> <http://www.w3.org/2000/01/rdf-schema#label> "has contact email" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCorrectiveActionTaken
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCorrectiveActionTaken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCorrectiveActionTaken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCorrectiveActionTaken> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCorrectiveActionTaken> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCorrectiveActionTaken> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates whether a corrective action was taken following the incident." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCorrectiveActionTaken> <http://www.w3.org/2000/01/rdf-schema#label> "has corrective action taken" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "A textual description of the entity." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription> <http://www.w3.org/2000/01/rdf-schema#label> "has description" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceID
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceID> <http://www.w3.org/2000/01/rdf-schema#comment> "The unique identifier of the medical device." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceID> <http://www.w3.org/2000/01/rdf-schema#label> "has device ID" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceName
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceName> <http://www.w3.org/2000/01/rdf-schema#comment> "The commercial name of the medical device." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceName> <http://www.w3.org/2000/01/rdf-schema#label> "has device name" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDevicesAffectedCount
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDevicesAffectedCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDevicesAffectedCount> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDevicesAffectedCount> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDevicesAffectedCount> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of devices affected by the FSCA." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDevicesAffectedCount> <http://www.w3.org/2000/01/rdf-schema#label> "has devices affected count" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDFSCARef
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDFSCARef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDFSCARef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDFSCARef> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDFSCARef> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDFSCARef> <http://www.w3.org/2000/01/rdf-schema#comment> "The EUDAMED reference number for the FSCA." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDFSCARef> <http://www.w3.org/2000/01/rdf-schema#label> "has EUDAMED FSCA reference" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDSRN
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDSRN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDSRN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDSRN> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDSRN> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDSRN> <http://www.w3.org/2000/01/rdf-schema#comment> "The Single Registration Number assigned in EUDAMED." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDSRN> <http://www.w3.org/2000/01/rdf-schema#label> "has EUDAMED SRN" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEventDate
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEventDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEventDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEventDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEventDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEventDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The date on which the incident event occurred." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEventDate> <http://www.w3.org/2000/01/rdf-schema#label> "has event date" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasFSCAID
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasFSCAID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasFSCAID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasFSCAID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasFSCAID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasFSCAID> <http://www.w3.org/2000/01/rdf-schema#comment> "The unique identifier of the field safety corrective action." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasFSCAID> <http://www.w3.org/2000/01/rdf-schema#label> "has FSCA ID" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIMDRFCode
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIMDRFCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIMDRFCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIMDRFCode> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIMDRFCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIMDRFCode> <http://www.w3.org/2000/01/rdf-schema#comment> "The IMDRF terminology code identifying the risk type." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIMDRFCode> <http://www.w3.org/2000/01/rdf-schema#label> "has IMDRF code" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIncidentID
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIncidentID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIncidentID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIncidentID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIncidentID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIncidentID> <http://www.w3.org/2000/01/rdf-schema#comment> "The unique identifier of the incident." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIncidentID> <http://www.w3.org/2000/01/rdf-schema#label> "has incident ID" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIntendedPurpose
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIntendedPurpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIntendedPurpose> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIntendedPurpose> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIntendedPurpose> <http://www.w3.org/2000/01/rdf-schema#comment> "The clinical use for which the device is intended." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIntendedPurpose> <http://www.w3.org/2000/01/rdf-schema#label> "has intended purpose" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasManufacturerID
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasManufacturerID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasManufacturerID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasManufacturerID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasManufacturerID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasManufacturerID> <http://www.w3.org/2000/01/rdf-schema#comment> "The unique identifier of the manufacturer." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasManufacturerID> <http://www.w3.org/2000/01/rdf-schema#label> "has manufacturer ID" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasName
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasName> <http://www.w3.org/2000/01/rdf-schema#comment> "The legal name of the manufacturer." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasName> <http://www.w3.org/2000/01/rdf-schema#label> "has name" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasOutcome
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasOutcome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasOutcome> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasOutcome> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasOutcome> <http://www.w3.org/2000/01/rdf-schema#comment> "The clinical outcome of the incident." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasOutcome> <http://www.w3.org/2000/01/rdf-schema#label> "has outcome" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientAge
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientAge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientAge> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientAge> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientAge> <http://www.w3.org/2000/01/rdf-schema#comment> "The age of the patient involved in the incident." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientAge> <http://www.w3.org/2000/01/rdf-schema#label> "has patient age" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientSex
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientSex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientSex> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientSex> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientSex> <http://www.w3.org/2000/01/rdf-schema#comment> "The sex of the patient involved in the incident." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientSex> <http://www.w3.org/2000/01/rdf-schema#label> "has patient sex" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasReportDate
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasReportDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasReportDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasReportDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasReportDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasReportDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The date on which the incident was reported to the competent authority." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasReportDate> <http://www.w3.org/2000/01/rdf-schema#label> "has report date" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskID
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskID> <http://www.w3.org/2000/01/rdf-schema#comment> "The unique identifier of the risk." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskID> <http://www.w3.org/2000/01/rdf-schema#label> "has risk ID" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskName
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the risk as defined in the IMDRF terminology." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskName> <http://www.w3.org/2000/01/rdf-schema#label> "has risk name" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasScope
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasScope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasScope> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasScope> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasScope> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of the devices or lots affected by the FSCA." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasScope> <http://www.w3.org/2000/01/rdf-schema#label> "has scope" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasUDI
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasUDI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasUDI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasUDI> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasUDI> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasUDI> <http://www.w3.org/2000/01/rdf-schema#comment> "The Unique Device Identifier (UDI-DI) assigned to the device." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasUDI> <http://www.w3.org/2000/01/rdf-schema#label> "has UDI" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isActive
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isActive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isActive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isActive> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isActive> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isActive> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates whether the device requires an energy source to operate." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isActive> <http://www.w3.org/2000/01/rdf-schema#label> "is active" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isIVD
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isIVD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isIVD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isIVD> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isIVD> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isIVD> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates whether the device is an in vitro diagnostic device." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isIVD> <http://www.w3.org/2000/01/rdf-schema#label> "is IVD" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isImplantable
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isImplantable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isImplantable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isImplantable> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isImplantable> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isImplantable> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates whether the device is implantable." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isImplantable> <http://www.w3.org/2000/01/rdf-schema#label> "is implantable" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isReusable
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isReusable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isReusable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isReusable> <http://www.w3.org/2000/01/rdf-schema#domain> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isReusable> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isReusable> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates whether the device can be used more than once." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isReusable> <http://www.w3.org/2000/01/rdf-schema#label> "is reusable" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActionType
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActionType> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of field safety corrective action taken by a manufacturer." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActionType> <http://www.w3.org/2000/01/rdf-schema#label> "Action Type" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActiveDevice
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActiveDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "A medical device whose operation depends on a source of energy other than that generated by the human body." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Active Device" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActiveImplant
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActiveImplant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActiveImplant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActiveDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActiveImplant> <http://www.w3.org/2000/01/rdf-schema#comment> "An active device that is intended to be totally or partially introduced into the human body." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActiveImplant> <http://www.w3.org/2000/01/rdf-schema#label> "Active Implant" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassA
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDRRiskClass> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassA> <http://www.w3.org/2000/01/rdf-schema#comment> "Lowest risk class under IVDR." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassA> <http://www.w3.org/2000/01/rdf-schema#label> "Class A" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassB
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassB> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDRRiskClass> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassB> <http://www.w3.org/2000/01/rdf-schema#comment> "Low-medium risk class under IVDR." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassB> <http://www.w3.org/2000/01/rdf-schema#label> "Class B" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassC
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDRRiskClass> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassC> <http://www.w3.org/2000/01/rdf-schema#comment> "Medium-high risk class under IVDR." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassC> <http://www.w3.org/2000/01/rdf-schema#label> "Class C" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassD
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDRRiskClass> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassD> <http://www.w3.org/2000/01/rdf-schema#comment> "Highest risk class under IVDR." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassD> <http://www.w3.org/2000/01/rdf-schema#label> "Class D" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassI
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassI> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDRRiskClass> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassI> <http://www.w3.org/2000/01/rdf-schema#comment> "Lowest risk class under MDR." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassI> <http://www.w3.org/2000/01/rdf-schema#label> "Class I" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIII
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIII> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIII> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDRRiskClass> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIII> <http://www.w3.org/2000/01/rdf-schema#comment> "Highest risk class under MDR." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIII> <http://www.w3.org/2000/01/rdf-schema#label> "Class III" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIIa
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIIa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIIa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDRRiskClass> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIIa> <http://www.w3.org/2000/01/rdf-schema#comment> "Medium-low risk class under MDR." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIIa> <http://www.w3.org/2000/01/rdf-schema#label> "Class IIa" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIIb
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIIb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIIb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDRRiskClass> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIIb> <http://www.w3.org/2000/01/rdf-schema#comment> "Medium-high risk class under MDR." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIIb> <http://www.w3.org/2000/01/rdf-schema#label> "Class IIb" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Closed
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Closed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Closed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCAStatus> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Closed> <http://www.w3.org/2002/07/owl#disjointWith> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Open> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Closed> <http://www.w3.org/2000/01/rdf-schema#comment> "The FSCA has been completed and closed." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Closed> <http://www.w3.org/2000/01/rdf-schema#label> "Closed" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CompetentAuthority
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CompetentAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#comment> "The national regulatory body responsible for supervising medical devices in a given EU member state." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#label> "Competent Authority" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Country
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Country> <http://www.w3.org/2000/01/rdf-schema#comment> "A country in which a manufacturer is registered or an incident has been reported." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CriticalSeverity
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CriticalSeverity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CriticalSeverity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeverityLevel> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CriticalSeverity> <http://www.w3.org/2000/01/rdf-schema#comment> "Risk event that could directly cause death or irreversible harm." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CriticalSeverity> <http://www.w3.org/2000/01/rdf-schema#label> "Critical Severity" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA> <http://www.w3.org/2000/01/rdf-schema#comment> "A corrective action taken by a manufacturer to reduce risk of death or serious deterioration in health associated with a device in the field." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA> <http://www.w3.org/2000/01/rdf-schema#label> "Field Safety Corrective Action" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCAStatus
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCAStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCAStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "The current status of a field safety corrective action." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCAStatus> <http://www.w3.org/2000/01/rdf-schema#label> "FSCA Status" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDR
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDR> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RegulatoryFramework> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDR> <http://www.w3.org/2002/07/owl#disjointWith> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDR> <http://www.w3.org/2000/01/rdf-schema#comment> "EU In Vitro Diagnostic Regulation 2017/746." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDR> <http://www.w3.org/2000/01/rdf-schema#label> "IVDR" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDRRiskClass
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDRRiskClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDRRiskClass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RiskClass> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDRRiskClass> <http://www.w3.org/2002/07/owl#disjointWith> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDRRiskClass> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDRRiskClass> <http://www.w3.org/2000/01/rdf-schema#comment> "Risk class under EU IVDR 2017/746." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDRRiskClass> <http://www.w3.org/2000/01/rdf-schema#label> "IVDR Risk Class" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ImplantableActiveDevice
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ImplantableActiveDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ImplantableActiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ImplantableDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ImplantableActiveDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "An active medical device intended to be totally or partially introduced into the human body." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ImplantableActiveDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Implantable Active Device" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ImplantableDevice
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ImplantableDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ImplantableDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ImplantableDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskClass> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ImplantableDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "A medical device intended to be totally or partially introduced into the human body and to remain there after the procedure." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ImplantableDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Implantable Device" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#InSituCorrection
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#InSituCorrection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#InSituCorrection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActionType> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#InSituCorrection> <http://www.w3.org/2000/01/rdf-schema#comment> "Correction of a device at the user's location." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#InSituCorrection> <http://www.w3.org/2000/01/rdf-schema#label> "In-Situ Correction" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#InVitroDiagnosticDevice
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#InVitroDiagnosticDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#InVitroDiagnosticDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#InVitroDiagnosticDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "A medical device intended to examine specimens derived from the human body for diagnostic purposes, as defined under IVDR 2017/746." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#InVitroDiagnosticDevice> <http://www.w3.org/2000/01/rdf-schema#label> "In Vitro Diagnostic Device" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident> <http://www.w3.org/2000/01/rdf-schema#comment> "A reportable event involving a medical device that has or could have led to patient harm, as defined under EU MDR Article 87." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident> <http://www.w3.org/2000/01/rdf-schema#label> "Incident" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RegulatoryFramework> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR> <http://www.w3.org/2000/01/rdf-schema#comment> "EU Medical Device Regulation 2017/745." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR> <http://www.w3.org/2000/01/rdf-schema#label> "MDR" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDRRiskClass
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDRRiskClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDRRiskClass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RiskClass> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDRRiskClass> <http://www.w3.org/2000/01/rdf-schema#comment> "Risk class under EU MDR 2017/745." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDRRiskClass> <http://www.w3.org/2000/01/rdf-schema#label> "MDR Risk Class" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer> <http://www.w3.org/2000/01/rdf-schema#comment> "A legal entity that manufactures or places on the EU market a medical device and bears responsibility for its conformity." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer> <http://www.w3.org/2000/01/rdf-schema#label> "Manufacturer" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "A medical device as defined under EU MDR 2017/745 or IVDR 2017/746, registered in EUDAMED." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Medical Device" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ModerateSeverity
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ModerateSeverity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ModerateSeverity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeverityLevel> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ModerateSeverity> <http://www.w3.org/2000/01/rdf-schema#comment> "Risk event that causes moderate harm requiring medical intervention." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ModerateSeverity> <http://www.w3.org/2000/01/rdf-schema#label> "Moderate Severity" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Open
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Open> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Open> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCAStatus> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Open> <http://www.w3.org/2000/01/rdf-schema#comment> "The FSCA is still ongoing." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Open> <http://www.w3.org/2000/01/rdf-schema#label> "Open" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Recall
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Recall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Recall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActionType> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Recall> <http://www.w3.org/2000/01/rdf-schema#comment> "Removal of a device from the market or from use." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Recall> <http://www.w3.org/2000/01/rdf-schema#label> "Recall" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RegulatoryFramework
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RegulatoryFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RegulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#comment> "The EU regulation under which a medical device is classified and registered." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RegulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#label> "Regulatory Framework" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk> <http://www.w3.org/2000/01/rdf-schema#comment> "A potential hazard associated with a medical device, classified according to IMDRF terminology." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk> <http://www.w3.org/2000/01/rdf-schema#label> "Risk" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RiskClass
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RiskClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RiskClass> <http://www.w3.org/2000/01/rdf-schema#comment> "The regulatory risk classification assigned to a medical device based on its intended purpose and associated risks." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RiskClass> <http://www.w3.org/2000/01/rdf-schema#label> "Risk Class" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SafetyAlert
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SafetyAlert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SafetyAlert> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActionType> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SafetyAlert> <http://www.w3.org/2000/01/rdf-schema#comment> "Communication to users regarding a safety issue." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SafetyAlert> <http://www.w3.org/2000/01/rdf-schema#label> "Safety Alert" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SelfTestDevice
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SelfTestDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SelfTestDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#InVitroDiagnosticDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SelfTestDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "An in vitro diagnostic device intended to be used by lay persons in a home environment." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SelfTestDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Self-Test Device" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousIncident
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousIncident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousIncident> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousIncident> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isRelatedToRisk> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousIncident> <http://www.w3.org/2000/01/rdf-schema#comment> "An incident that directly or indirectly led to death, serious deterioration of health, or a serious public health threat." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousIncident> <http://www.w3.org/2000/01/rdf-schema#label> "Serious Incident" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousSeverity
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousSeverity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousSeverity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeverityLevel> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousSeverity> <http://www.w3.org/2000/01/rdf-schema#comment> "Risk event that causes serious but potentially reversible harm." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousSeverity> <http://www.w3.org/2000/01/rdf-schema#label> "Serious Severity" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeverityLevel
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeverityLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeverityLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "The degree of harm or impact associated with a risk event." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeverityLevel> <http://www.w3.org/2000/01/rdf-schema#label> "Severity Level" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SingleUseDevice
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SingleUseDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SingleUseDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SingleUseDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "A device intended to be used on one individual during a single procedure." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SingleUseDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Single-Use Device" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#UserNotice
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#UserNotice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#UserNotice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActionType> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#UserNotice> <http://www.w3.org/2000/01/rdf-schema#comment> "Notice to users with instructions to avoid or mitigate risk." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#UserNotice> <http://www.w3.org/2000/01/rdf-schema#label> "User Notice" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/resource/Germany
+<http://dbpedia.org/resource/Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/resource/Germany> <http://www.w3.org/2002/07/owl#sameAs> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Germany> .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Germany
+# 
+# http://dbpedia.org/resource/Ireland
+<http://dbpedia.org/resource/Ireland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/resource/Ireland> <http://www.w3.org/2002/07/owl#sameAs> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Ireland> .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Ireland
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Abbott
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Abbott> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Abbott> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Abbott> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCompetentAuthority> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#BfArM> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Abbott> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCountry> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Germany> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Abbott> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasAuthorizationNumber> "DE/2017/005678" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Abbott> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasContactEmail> "regulatory@abbott.com" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Abbott> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDSRN> "SRN-DE-MED-0002" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Abbott> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasManufacturerID> "MAN-002" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Abbott> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasName> "Abbott Medical Devices" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Abbott> <http://www.w3.org/2000/01/rdf-schema#label> "Abbott Medical Devices" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#BfArM
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#BfArM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#BfArM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CompetentAuthority> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#BfArM> <http://www.w3.org/2000/01/rdf-schema#comment> "Bundesinstitut für Arzneimittel und Medizinprodukte - German competent authority for medical devices." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#BfArM> <http://www.w3.org/2000/01/rdf-schema#label> "BfArM" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassC_inst
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassC_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassC_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassC> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassC_inst> <http://www.w3.org/2000/01/rdf-schema#label> "Class C" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIII_inst
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIII_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIII_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIII> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIII_inst> <http://www.w3.org/2000/01/rdf-schema#label> "Class III" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Closed_inst
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Closed_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Closed_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Closed> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Closed_inst> <http://www.w3.org/2000/01/rdf-schema#label> "Closed" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CobasE801
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CobasE801> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CobasE801> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#InVitroDiagnosticDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CobasE801> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRegulatoryFramework> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDR_inst> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CobasE801> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskClass> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassC_inst> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CobasE801> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Roche> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CobasE801> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceID> "DEV-016" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CobasE801> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceName> "cobas e 801 Immunoassay Analyzer" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CobasE801> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIntendedPurpose> "Automated immunoassay analyzer for clinical laboratory" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CobasE801> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasUDI> "(01)04015630001016" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CobasE801> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isActive> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CobasE801> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isIVD> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CobasE801> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isImplantable> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CobasE801> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isReusable> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CobasE801> <http://www.w3.org/2000/01/rdf-schema#label> "cobas e 801 Immunoassay Analyzer" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CriticalSeverity_inst
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CriticalSeverity_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CriticalSeverity_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CriticalSeverity> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CriticalSeverity_inst> <http://www.w3.org/2000/01/rdf-schema#label> "Critical" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA001
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#addressesIncident> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionType> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SafetyAlert_inst> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasStatus> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Open_inst> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionDate> "2024-02-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription> "Safety alert regarding anticoagulation protocol update. INR target range revised to 2.0-3.0." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDevicesAffectedCount> "850"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDFSCARef> "EU-FSCA-2024-000001" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasFSCAID> "FSCA-001" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasScope> "All HeartMate 3 LVAD units implanted since 2020" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA001> <http://www.w3.org/2000/01/rdf-schema#label> "FSCA-001 HeartMate 3 Safety Alert" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA002
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#addressesIncident> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionType> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Recall_inst> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasStatus> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Closed_inst> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionDate> "2024-02-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasClosureDate> "2024-05-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription> "Voluntary recall due to premature battery depletion. Replacement units provided." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDevicesAffectedCount> "1240"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDFSCARef> "EU-FSCA-2024-000002" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasFSCAID> "FSCA-002" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasScope> "Micra AV lots manufactured between 2022-09 and 2023-03" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA002> <http://www.w3.org/2000/01/rdf-schema#label> "FSCA-002 Micra AV Recall" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Germany
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Country> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Germany> <http://www.w3.org/2000/01/rdf-schema#label> "Germany" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HPRA
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HPRA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HPRA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CompetentAuthority> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HPRA> <http://www.w3.org/2000/01/rdf-schema#comment> "Health Products Regulatory Authority - Irish competent authority for medical devices." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HPRA> <http://www.w3.org/2000/01/rdf-schema#label> "HPRA" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ImplantableActiveDevice> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRegulatoryFramework> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR_inst> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskClass> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIII_inst> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceID> "DEV-001" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceName> "HeartMate 3 LVAD" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIntendedPurpose> "Ventricular assist device for end-stage heart failure" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasUDI> "(01)00380740009095" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isActive> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isIVD> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isImplantable> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isReusable> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3> <http://www.w3.org/2000/01/rdf-schema#label> "HeartMate 3 LVAD" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousIncident> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isRelatedToRisk> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK003> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#reportedBy> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCorrectiveActionTaken> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription> "Patient implanted with HeartMate 3 LVAD developed ischemic stroke 6 months post-implant." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEventDate> "2024-01-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIncidentID> "INC-001" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasOutcome> "Serious patient injury - embolic stroke" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientAge> "58"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientSex> "Male" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasReportDate> "2024-01-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001> <http://www.w3.org/2000/01/rdf-schema#label> "INC-001 HeartMate 3 Thrombosis" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousIncident> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isRelatedToRisk> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK009> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#reportedBy> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCorrectiveActionTaken> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription> "Micra AV pacemaker reached elective replacement indicator 14 months earlier than expected." .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEventDate> "2024-01-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIncidentID> "INC-002" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasOutcome> "Device malfunction - premature battery depletion" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientAge> "72"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientSex> "Female" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasReportDate> "2024-02-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002> <http://www.w3.org/2000/01/rdf-schema#label> "INC-002 Micra AV Battery Depletion" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDR_inst
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDR_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDR_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDR> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDR_inst> <http://www.w3.org/2000/01/rdf-schema#label> "IVDR 2017/746" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Ireland
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Ireland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Ireland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Country> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Ireland> <http://www.w3.org/2000/01/rdf-schema#label> "Ireland" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR_inst
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR_inst> <http://www.w3.org/2000/01/rdf-schema#label> "MDR 2017/745" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCompetentAuthority> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HPRA> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCountry> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Ireland> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasAuthorizationNumber> "IE/2017/001234" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasContactEmail> "regulatory@medtronic.com" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDSRN> "SRN-IE-MED-0001" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasManufacturerID> "MAN-001" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasName> "Medtronic plc" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic> <http://www.w3.org/2000/01/rdf-schema#label> "Medtronic plc" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActiveImplant> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRegulatoryFramework> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR_inst> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskClass> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIII_inst> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceID> "DEV-002" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceName> "Micra AV Transcatheter Pacing System" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIntendedPurpose> "Leadless cardiac pacemaker for atrioventricular synchrony" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasUDI> "(01)00380740009112" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isActive> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isIVD> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isImplantable> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isReusable> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV> <http://www.w3.org/2000/01/rdf-schema#label> "Micra AV Transcatheter Pacing System" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Open_inst
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Open_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Open_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Open> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Open_inst> <http://www.w3.org/2000/01/rdf-schema#label> "Open" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK003
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK003> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasSeverity> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CriticalSeverity_inst> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK003> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription> "Thrombus formation on device surface causing embolic events" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK003> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIMDRFCode> "A0201" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK003> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskID> "RSK-003" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK003> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskName> "Thrombosis - device-related" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK003> <http://www.w3.org/2000/01/rdf-schema#label> "Thrombosis - device-related" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK009
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK009> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasSeverity> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CriticalSeverity_inst> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK009> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription> "Battery end-of-life earlier than specified, risking therapy interruption" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK009> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIMDRFCode> "A0501" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK009> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskID> "RSK-009" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK009> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskName> "Battery depletion - premature" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK009> <http://www.w3.org/2000/01/rdf-schema#label> "Battery depletion - premature" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Recall_inst
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Recall_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Recall_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Recall> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Recall_inst> <http://www.w3.org/2000/01/rdf-schema#label> "Recall" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Roche
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Roche> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Roche> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Roche> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCompetentAuthority> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#BfArM> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Roche> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCountry> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Germany> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Roche> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasAuthorizationNumber> "DE/2017/007890" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Roche> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasContactEmail> "regulatory@roche.com" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Roche> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDSRN> "SRN-DE-MED-0005" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Roche> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasManufacturerID> "MAN-005" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Roche> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasName> "Roche Diagnostics GmbH" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Roche> <http://www.w3.org/2000/01/rdf-schema#label> "Roche Diagnostics GmbH" .
+# 
+# https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SafetyAlert_inst
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SafetyAlert_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SafetyAlert_inst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SafetyAlert> .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SafetyAlert_inst> <http://www.w3.org/2000/01/rdf-schema#label> "Safety Alert" .
+# 
+_:genid3 <http://www.w3.org/2003/11/swrl#argument1> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#ID> "d" .
+_:genid3 <http://www.w3.org/2003/11/swrl#argument2> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#ID> "m" .
+_:genid3 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.example.org/emdco#isManufacturedBy> .
+_:genid6 <http://www.w3.org/2003/11/swrl#argument1> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#ID> "d" .
+_:genid6 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.example.org/emdco#ImplantableActiveDevice> .
+_:genid8 <http://www.w3.org/2003/11/swrl#argument1> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#ID> "i" .
+_:genid8 <http://www.w3.org/2003/11/swrl#argument2> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#ID> "d" .
+_:genid8 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.example.org/emdco#involvesDevice> .
+_:genid11 <http://www.w3.org/2003/11/swrl#argument1> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#ID> "i" .
+_:genid11 <http://www.w3.org/2003/11/swrl#argument2> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#ID> "m" .
+_:genid11 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.example.org/emdco#reportedBy> .
+_:genid14 <http://www.w3.org/2003/11/swrl#argument1> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#ID> "d" .
+_:genid14 <http://www.w3.org/2003/11/swrl#argument2> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid14 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.example.org/emdco#isActive> .
+_:genid16 <http://www.w3.org/2003/11/swrl#argument1> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#ID> "d" .
+_:genid16 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.example.org/emdco#InVitroDiagnosticDevice> .
+_:genid18 <http://www.w3.org/2003/11/swrl#argument1> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#ID> "d" .
+_:genid18 <http://www.w3.org/2003/11/swrl#argument2> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid18 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.example.org/emdco#isImplantable> .
+_:genid20 <http://www.w3.org/2003/11/swrl#argument1> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#ID> "d" .
+_:genid20 <http://www.w3.org/2003/11/swrl#argument2> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid20 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.example.org/emdco#isIVD> .
+_:genid22 <http://www.w3.org/2003/11/swrl#argument1> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#ID> "d" .
+_:genid22 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.example.org/emdco#MedicalDevice> .
+_:genid24 <http://www.w3.org/2003/11/swrl#argument1> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#ID> "i" .
+_:genid24 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.example.org/emdco#Incident> .
+_:genid26 <http://www.w3.org/2003/11/swrl#argument1> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#ID> "d" .
+_:genid26 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.example.org/emdco#MedicalDevice> .
+_:genid28 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid29 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid30 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.example.org/emdco#Rule1> <http://www.w3.org/2003/11/swrl#body> _:genid31 .
+<http://www.example.org/emdco#Rule1> <http://www.w3.org/2003/11/swrl#head> _:genid32 .
+# 
+<http://www.example.org/emdco#Rule2> <http://www.w3.org/2003/11/swrl#body> _:genid33 .
+<http://www.example.org/emdco#Rule2> <http://www.w3.org/2003/11/swrl#head> _:genid34 .
+# 
+<http://www.example.org/emdco#Rule3> <http://www.w3.org/2003/11/swrl#body> _:genid35 .
+<http://www.example.org/emdco#Rule3> <http://www.w3.org/2003/11/swrl#head> _:genid36 .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<urn:swrl:var#i> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid37 <http://www.w3.org/2003/11/swrl#body> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39 .
+_:genid39 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
+_:genid39 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#i> .
+_:genid39 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid41 .
+_:genid41 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#r> .
+_:genid41 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#i> .
+_:genid41 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isRelatedToRisk> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid43 .
+_:genid43 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#i> .
+_:genid43 <http://www.w3.org/2003/11/swrl#classPredicate> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid37 <http://www.w3.org/2003/11/swrl#head> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid45 .
+_:genid45 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#i> .
+_:genid45 <http://www.w3.org/2003/11/swrl#classPredicate> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousIncident> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid46 <http://www.w3.org/2003/11/swrl#body> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48 .
+_:genid48 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
+_:genid48 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#i> .
+_:genid48 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid50 .
+_:genid50 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#i> .
+_:genid50 <http://www.w3.org/2003/11/swrl#classPredicate> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid52 .
+_:genid52 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#m> .
+_:genid52 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#d> .
+_:genid52 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid46 <http://www.w3.org/2003/11/swrl#head> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid54 .
+_:genid54 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#m> .
+_:genid54 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#i> .
+_:genid54 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#reportedBy> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid55 <http://www.w3.org/2003/11/swrl#body> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid57 .
+_:genid57 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#i> .
+_:genid57 <http://www.w3.org/2003/11/swrl#classPredicate> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousIncident> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid59 .
+_:genid59 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d> .
+_:genid59 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#i> .
+_:genid59 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid61 .
+_:genid61 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#m> .
+_:genid61 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#d> .
+_:genid61 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid55 <http://www.w3.org/2003/11/swrl#head> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid63 .
+_:genid63 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#m> .
+_:genid63 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#i> .
+_:genid63 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#reportedBy> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
