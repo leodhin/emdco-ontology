@@ -1,0 +1,2178 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.example.org/emdco", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "title" : {
+      "undefined" : "European Medical Device Catalogue Ontology (EMDCO)"
+    },
+    "iri" : "http://www.example.org/emdco",
+    "version" : "1.0.0",
+    "author" : [ "Miguel Ángel Gata Luján" ],
+    "description" : {
+      "undefined" : "Ontology modelling the European catalogue of medical devices and in vitro diagnostics under MDR (EU 2017/745) and IVDR (EU 2017/746) regulatory frameworks, including manufacturers, risks, incidents and field safety corrective actions registered in EUDAMED."
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Miguel Ángel Gata Luján",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "European Medical Device Catalogue Ontology (EMDCO)",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "3",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.example.org/emdco#MDRRiskClass",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MDRRiskClass",
+      "undefined" : "MDR Risk Class"
+    },
+    "subClasses" : [ "6", "7", "8", "9" ],
+    "comment" : {
+      "undefined" : "Risk class under EU MDR 2017/745."
+    },
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#ClassIII",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassIII",
+      "undefined" : "Class III"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#ClassIII_inst",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "ClassIII_inst",
+        "undefined" : "Class III"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Highest risk class under MDR."
+    },
+    "id" : "7",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.example.org/emdco#UserNotice",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UserNotice",
+      "undefined" : "User Notice"
+    },
+    "comment" : {
+      "undefined" : "Notice to users with instructions to avoid or mitigate risk."
+    },
+    "id" : "23",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "25",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "26",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.example.org/emdco#CriticalSeverity",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CriticalSeverity",
+      "undefined" : "Critical Severity"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#CriticalSeverity_inst",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "CriticalSeverity_inst",
+        "undefined" : "Critical"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Risk event that could directly cause death or irreversible harm."
+    },
+    "id" : "27",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.example.org/emdco#FSCA",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FSCA",
+      "undefined" : "Field Safety Corrective Action"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#FSCA002",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "FSCA002",
+        "undefined" : "FSCA-002 Micra AV Recall"
+      }
+    }, {
+      "iri" : "http://www.example.org/emdco#FSCA001",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "FSCA001",
+        "undefined" : "FSCA-001 HeartMate 3 Safety Alert"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A corrective action taken by a manufacturer to reduce risk of death or serious deterioration in health associated with a device in the field."
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.example.org/emdco#ClassIIa",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassIIa",
+      "undefined" : "Class IIa"
+    },
+    "comment" : {
+      "undefined" : "Medium-low risk class under MDR."
+    },
+    "id" : "8",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.example.org/emdco#ClassIIb",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassIIb",
+      "undefined" : "Class IIb"
+    },
+    "comment" : {
+      "undefined" : "Medium-high risk class under MDR."
+    },
+    "id" : "9",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.example.org/emdco#Manufacturer",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Manufacturer",
+      "undefined" : "Manufacturer"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#Abbott",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "Abbott",
+        "undefined" : "Abbott Medical Devices"
+      }
+    }, {
+      "iri" : "http://www.example.org/emdco#Medtronic",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "Medtronic",
+        "undefined" : "Medtronic plc"
+      }
+    }, {
+      "iri" : "http://www.example.org/emdco#Roche",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "Roche",
+        "undefined" : "Roche Diagnostics GmbH"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A legal entity that manufactures or places on the EU market a medical device and bears responsibility for its conformity."
+    },
+    "id" : "14"
+  }, {
+    "iri" : "http://www.example.org/emdco#Recall",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Recall",
+      "undefined" : "Recall"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#Recall_inst",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "Recall_inst",
+        "undefined" : "Recall"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Removal of a device from the market or from use."
+    },
+    "id" : "34",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#ImplantableActiveDevice",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplantableActiveDevice",
+      "undefined" : "Implantable Active Device"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#HeartMate3",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "HeartMate3",
+        "undefined" : "HeartMate 3 LVAD"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "An active medical device intended to be totally or partially introduced into the human body."
+    },
+    "id" : "35",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#RiskClass",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskClass",
+      "undefined" : "Risk Class"
+    },
+    "subClasses" : [ "4", "39" ],
+    "comment" : {
+      "undefined" : "The regulatory risk classification assigned to a medical device based on its intended purpose and associated risks."
+    },
+    "id" : "5"
+  }, {
+    "iri" : "http://www.example.org/emdco#ClassI",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassI",
+      "undefined" : "Class I"
+    },
+    "comment" : {
+      "undefined" : "Lowest risk class under MDR."
+    },
+    "id" : "6",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#ActiveImplant",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActiveImplant",
+      "undefined" : "Active Implant"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#MicraAV",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "MicraAV",
+        "undefined" : "Micra AV Transcatheter Pacing System"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "An active device that is intended to be totally or partially introduced into the human body."
+    },
+    "id" : "40",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.example.org/emdco#ActionType",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActionType",
+      "undefined" : "Action Type"
+    },
+    "subClasses" : [ "43", "34", "23", "44" ],
+    "comment" : {
+      "undefined" : "The type of field safety corrective action taken by a manufacturer."
+    },
+    "id" : "24"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "48",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.example.org/emdco#ActiveDevice",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActiveDevice",
+      "undefined" : "Active Device"
+    },
+    "subClasses" : [ "40" ],
+    "comment" : {
+      "undefined" : "A medical device whose operation depends on a source of energy other than that generated by the human body."
+    },
+    "id" : "41",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "21",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.example.org/emdco#SeverityLevel",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SeverityLevel",
+      "undefined" : "Severity Level"
+    },
+    "subClasses" : [ "55", "56", "27" ],
+    "comment" : {
+      "undefined" : "The degree of harm or impact associated with a risk event."
+    },
+    "id" : "28"
+  }, {
+    "iri" : "http://www.example.org/emdco#ClassD",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassD",
+      "undefined" : "Class D"
+    },
+    "comment" : {
+      "undefined" : "Highest risk class under IVDR."
+    },
+    "id" : "54",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#Incident",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Incident",
+      "undefined" : "Incident"
+    },
+    "subClasses" : [ "63" ],
+    "comment" : {
+      "undefined" : "A reportable event involving a medical device that has or could have led to patient harm, as defined under EU MDR Article 87."
+    },
+    "id" : "47"
+  }, {
+    "iri" : "http://www.example.org/emdco#ClassC",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassC",
+      "undefined" : "Class C"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#ClassC_inst",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "ClassC_inst",
+        "undefined" : "Class C"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Medium-high risk class under IVDR."
+    },
+    "id" : "60",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#ClassB",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassB",
+      "undefined" : "Class B"
+    },
+    "comment" : {
+      "undefined" : "Low-medium risk class under IVDR."
+    },
+    "id" : "58",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#ClassA",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassA",
+      "undefined" : "Class A"
+    },
+    "comment" : {
+      "undefined" : "Lowest risk class under IVDR."
+    },
+    "id" : "64",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#InSituCorrection",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InSituCorrection",
+      "undefined" : "In-Situ Correction"
+    },
+    "comment" : {
+      "undefined" : "Correction of a device at the user's location."
+    },
+    "id" : "44",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#InVitroDiagnosticDevice",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InVitroDiagnosticDevice",
+      "undefined" : "In Vitro Diagnostic Device"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#CobasE801",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "CobasE801",
+        "undefined" : "cobas e 801 Immunoassay Analyzer"
+      }
+    } ],
+    "subClasses" : [ "66" ],
+    "comment" : {
+      "undefined" : "A medical device intended to examine specimens derived from the human body for diagnostic purposes, as defined under IVDR 2017/746."
+    },
+    "id" : "65",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#SingleUseDevice",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SingleUseDevice",
+      "undefined" : "Single-Use Device"
+    },
+    "comment" : {
+      "undefined" : "A device intended to be used on one individual during a single procedure."
+    },
+    "id" : "69",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#Risk",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk",
+      "undefined" : "Risk"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#RSK009",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "RSK009",
+        "undefined" : "Battery depletion - premature"
+      }
+    }, {
+      "iri" : "http://www.example.org/emdco#RSK003",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "RSK003",
+        "undefined" : "Thrombosis - device-related"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A potential hazard associated with a medical device, classified according to IMDRF terminology."
+    },
+    "id" : "68"
+  }, {
+    "iri" : "http://www.example.org/emdco#SafetyAlert",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SafetyAlert",
+      "undefined" : "Safety Alert"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#SafetyAlert_inst",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "SafetyAlert_inst",
+        "undefined" : "Safety Alert"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Communication to users regarding a safety issue."
+    },
+    "id" : "43",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#SelfTestDevice",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SelfTestDevice",
+      "undefined" : "Self-Test Device"
+    },
+    "comment" : {
+      "undefined" : "An in vitro diagnostic device intended to be used by lay persons in a home environment."
+    },
+    "id" : "66",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.example.org/emdco#IVDRRiskClass",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IVDRRiskClass",
+      "undefined" : "IVDR Risk Class"
+    },
+    "subClasses" : [ "54", "60", "58", "64" ],
+    "comment" : {
+      "undefined" : "Risk class under EU IVDR 2017/746."
+    },
+    "id" : "39",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "95",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.example.org/emdco#Open",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Open",
+      "undefined" : "Open"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#Open_inst",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "Open_inst",
+        "undefined" : "Open"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The FSCA is still ongoing."
+    },
+    "id" : "104",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#SeriousIncident",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SeriousIncident",
+      "undefined" : "Serious Incident"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#INC001",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "INC001",
+        "undefined" : "INC-001 HeartMate 3 Thrombosis"
+      }
+    }, {
+      "iri" : "http://www.example.org/emdco#INC002",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "INC002",
+        "undefined" : "INC-002 Micra AV Battery Depletion"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "An incident that directly or indirectly led to death, serious deterioration of health, or a serious public health threat."
+    },
+    "id" : "63",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#Country",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Country",
+      "undefined" : "Country"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#Germany",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "Germany",
+        "undefined" : "Germany"
+      }
+    }, {
+      "iri" : "http://www.example.org/emdco#Ireland",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "Ireland",
+        "undefined" : "Ireland"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A country in which a manufacturer is registered or an incident has been reported."
+    },
+    "id" : "108"
+  }, {
+    "iri" : "http://www.example.org/emdco#Closed",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Closed",
+      "undefined" : "Closed"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#Closed_inst",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "Closed_inst",
+        "undefined" : "Closed"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The FSCA has been completed and closed."
+    },
+    "id" : "111",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#SeriousSeverity",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SeriousSeverity",
+      "undefined" : "Serious Severity"
+    },
+    "comment" : {
+      "undefined" : "Risk event that causes serious but potentially reversible harm."
+    },
+    "id" : "56",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#ModerateSeverity",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ModerateSeverity",
+      "undefined" : "Moderate Severity"
+    },
+    "comment" : {
+      "undefined" : "Risk event that causes moderate harm requiring medical intervention."
+    },
+    "id" : "55",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "130",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "125",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.example.org/emdco#MedicalDevice",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MedicalDevice",
+      "undefined" : "Medical Device"
+    },
+    "subClasses" : [ "69", "41", "65", "36" ],
+    "comment" : {
+      "undefined" : "A medical device as defined under EU MDR 2017/745 or IVDR 2017/746, registered in EUDAMED."
+    },
+    "id" : "11"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "62",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.example.org/emdco#RegulatoryFramework",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RegulatoryFramework",
+      "undefined" : "Regulatory Framework"
+    },
+    "subClasses" : [ "115", "118" ],
+    "comment" : {
+      "undefined" : "The EU regulation under which a medical device is classified and registered."
+    },
+    "id" : "38"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "131",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "132",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.example.org/emdco#FSCAStatus",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FSCAStatus",
+      "undefined" : "FSCA Status"
+    },
+    "subClasses" : [ "111", "104" ],
+    "comment" : {
+      "undefined" : "The current status of a field safety corrective action."
+    },
+    "id" : "105"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "96",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "102",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.example.org/emdco#CompetentAuthority",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CompetentAuthority",
+      "undefined" : "Competent Authority"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#HPRA",
+      "baseIri" : "http://www.example.org/emdco",
+      "comment" : {
+        "undefined" : "Health Products Regulatory Authority - Irish competent authority for medical devices."
+      },
+      "labels" : {
+        "IRI-based" : "HPRA",
+        "undefined" : "HPRA"
+      }
+    }, {
+      "iri" : "http://www.example.org/emdco#BfArM",
+      "baseIri" : "http://www.example.org/emdco",
+      "comment" : {
+        "undefined" : "Bundesinstitut für Arzneimittel und Medizinprodukte - German competent authority for medical devices."
+      },
+      "labels" : {
+        "IRI-based" : "BfArM",
+        "undefined" : "BfArM"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The national regulatory body responsible for supervising medical devices in a given EU member state."
+    },
+    "id" : "135"
+  }, {
+    "iri" : "http://www.example.org/emdco#IVDR",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IVDR",
+      "undefined" : "IVDR"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#IVDR_inst",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "IVDR_inst",
+        "undefined" : "IVDR 2017/746"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "EU In Vitro Diagnostic Regulation 2017/746."
+    },
+    "id" : "115",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#MDR",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MDR",
+      "undefined" : "MDR"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.example.org/emdco#MDR_inst",
+      "baseIri" : "http://www.example.org/emdco",
+      "labels" : {
+        "IRI-based" : "MDR_inst",
+        "undefined" : "MDR 2017/745"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "EU Medical Device Regulation 2017/745."
+    },
+    "id" : "118",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "http://www.example.org/emdco#ImplantableDevice",
+    "baseIri" : "http://www.example.org/emdco",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplantableDevice",
+      "undefined" : "Implantable Device"
+    },
+    "subClasses" : [ "35" ],
+    "comment" : {
+      "undefined" : "A medical device intended to be totally or partially introduced into the human body and to remain there after the procedure."
+    },
+    "id" : "36",
+    "superClasses" : [ "11" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "91",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "94",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "122",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "127",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "133",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "137",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "138",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "140",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "141",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "145",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.example.org/emdco#hasFSCAID",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasFSCAID",
+      "undefined" : "has FSCA ID"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The unique identifier of the field safety corrective action."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.example.org/emdco#isImplantable",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "isImplantable",
+      "undefined" : "is implantable"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Indicates whether the device is implantable."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasName",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasName",
+      "undefined" : "has name"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "The legal name of the manufacturer."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasUDI",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "hasUDI",
+      "undefined" : "has UDI"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "The Unique Device Identifier (UDI-DI) assigned to the device."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasEUDAMEDSRN",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "hasEUDAMEDSRN",
+      "undefined" : "has EUDAMED SRN"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "The Single Registration Number assigned in EUDAMED."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasDeviceName",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "hasDeviceName",
+      "undefined" : "has device name"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "The commercial name of the medical device."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasRegulatoryFramework",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "hasRegulatoryFramework",
+      "undefined" : "has regulatory framework"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Relates a medical device to the EU regulation under which it is classified."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.example.org/emdco#addressesIncident",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "addressesIncident",
+      "undefined" : "addresses incident"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Relates a field safety corrective action to the incident it addresses."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "46"
+  }, {
+    "range" : "39",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "39",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "39",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasClosureDate",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "hasClosureDate",
+      "undefined" : "has closure date"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The date on which the FSCA was closed."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasRiskName",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "hasRiskName",
+      "undefined" : "has risk name"
+    },
+    "domain" : "68",
+    "comment" : {
+      "undefined" : "The name of the risk as defined in the IMDRF terminology."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "67"
+  }, {
+    "range" : "28",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "range" : "28",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "range" : "65",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "47",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasEventDate",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "hasEventDate",
+      "undefined" : "has event date"
+    },
+    "domain" : "47",
+    "comment" : {
+      "undefined" : "The date on which the incident event occurred."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.example.org/emdco#isRelatedToRisk",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "isRelatedToRisk",
+      "undefined" : "is related to risk"
+    },
+    "minCardinality" : "1",
+    "domain" : "47",
+    "comment" : {
+      "undefined" : "Relates an incident to the risk that materialised."
+    },
+    "attributes" : [ "object" ],
+    "id" : "75"
+  }, {
+    "range" : "24",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "76"
+  }, {
+    "range" : "24",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "28",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.example.org/emdco#isIVD",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "isIVD",
+      "undefined" : "is IVD"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Indicates whether the device is an in vitro diagnostic device."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "79"
+  }, {
+    "range" : "41",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasActionType",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "hasActionType",
+      "undefined" : "has action type"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Relates an FSCA to its type of corrective action."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasDevicesAffectedCount",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "hasDevicesAffectedCount",
+      "undefined" : "has devices affected count"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The number of devices affected by the FSCA."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "82"
+  }, {
+    "range" : "24",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "range" : "24",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.example.org/emdco#involvesDevice",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "involvesDevice",
+      "undefined" : "involves device"
+    },
+    "domain" : "47",
+    "comment" : {
+      "undefined" : "Relates an incident to the medical device involved."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "85"
+  }, {
+    "range" : "5",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasIncidentID",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "hasIncidentID",
+      "undefined" : "has incident ID"
+    },
+    "domain" : "47",
+    "comment" : {
+      "undefined" : "The unique identifier of the incident."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.example.org/emdco#isReusable",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "isReusable",
+      "undefined" : "is reusable"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Indicates whether the device can be used more than once."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "88"
+  }, {
+    "range" : "4",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasPatientAge",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "hasPatientAge",
+      "undefined" : "has patient age"
+    },
+    "domain" : "47",
+    "comment" : {
+      "undefined" : "The age of the patient involved in the incident."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "91"
+  }, {
+    "range" : "4",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasDescription",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "hasDescription",
+      "undefined" : "has description"
+    },
+    "domain" : "95",
+    "comment" : {
+      "undefined" : "A textual description of the entity."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "94"
+  }, {
+    "range" : "4",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://www.example.org/emdco#isActive",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "isActive",
+      "undefined" : "is active"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Indicates whether the device requires an energy source to operate."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasSeverity",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "hasSeverity",
+      "undefined" : "has severity"
+    },
+    "domain" : "68",
+    "comment" : {
+      "undefined" : "Relates a risk to its severity level."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "99"
+  }, {
+    "range" : "4",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasDeviceID",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "hasDeviceID",
+      "undefined" : "has device ID"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "The unique identifier of the medical device."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "101"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasPatientSex",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "hasPatientSex",
+      "undefined" : "has patient sex"
+    },
+    "domain" : "47",
+    "comment" : {
+      "undefined" : "The sex of the patient involved in the incident."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasOutcome",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "hasOutcome",
+      "undefined" : "has outcome"
+    },
+    "domain" : "47",
+    "comment" : {
+      "undefined" : "The clinical outcome of the incident."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "106"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasScope",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "hasScope",
+      "undefined" : "has scope"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "A description of the devices or lots affected by the FSCA."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "107"
+  }, {
+    "range" : "105",
+    "domain" : "104",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "range" : "105",
+    "domain" : "111",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "110"
+  }, {
+    "range" : "36",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasIntendedPurpose",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "hasIntendedPurpose",
+      "undefined" : "has intended purpose"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "The clinical use for which the device is intended."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "113"
+  }, {
+    "range" : "38",
+    "domain" : "115",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "range" : "11",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "116"
+  }, {
+    "range" : "38",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "range" : "11",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasReportDate",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "hasReportDate",
+      "undefined" : "has report date"
+    },
+    "domain" : "47",
+    "comment" : {
+      "undefined" : "The date on which the incident was reported to the competent authority."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "120"
+  }, {
+    "range" : "39",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasStatus",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "hasStatus",
+      "undefined" : "has status"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Relates an FSCA to its current status."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "122"
+  }, {
+    "range" : "11",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasAuthorizationNumber",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "125",
+    "label" : {
+      "IRI-based" : "hasAuthorizationNumber",
+      "undefined" : "has authorization number"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "The official registration number issued by the competent authority."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "124"
+  }, {
+    "range" : "11",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "126"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasRiskClass",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasRiskClass",
+      "undefined" : "has risk class"
+    },
+    "cardinality" : "1",
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Relates a medical device to its regulatory risk classification."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://www.example.org/emdco#isManufacturedBy",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isManufacturedBy",
+      "undefined" : "is manufactured by"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Relates a medical device to its registered manufacturer."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "128"
+  }, {
+    "range" : "4",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasRiskID",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "hasRiskID",
+      "undefined" : "has risk ID"
+    },
+    "domain" : "68",
+    "comment" : {
+      "undefined" : "The unique identifier of the risk."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasCountry",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "108",
+    "label" : {
+      "IRI-based" : "hasCountry",
+      "undefined" : "has country"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "Relates a manufacturer to the country where it is registered."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "134"
+  }, {
+    "range" : "104",
+    "domain" : "111",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "118",
+    "domain" : "115",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasActionDate",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "130",
+    "label" : {
+      "IRI-based" : "hasActionDate",
+      "undefined" : "has action date"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The date on which the FSCA was initiated."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasEUDAMEDFSCARef",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "hasEUDAMEDFSCARef",
+      "undefined" : "has EUDAMED FSCA reference"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The EUDAMED reference number for the FSCA."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://www.example.org/emdco#reportedBy",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "reportedBy",
+      "undefined" : "reported by"
+    },
+    "domain" : "47",
+    "comment" : {
+      "undefined" : "Relates an incident to the manufacturer that reported it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasContactEmail",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "131",
+    "label" : {
+      "IRI-based" : "hasContactEmail",
+      "undefined" : "has contact email"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "The regulatory contact email of the manufacturer."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasCorrectiveActionTaken",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "hasCorrectiveActionTaken",
+      "undefined" : "has corrective action taken"
+    },
+    "domain" : "47",
+    "comment" : {
+      "undefined" : "Indicates whether a corrective action was taken following the incident."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasCompetentAuthority",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "135",
+    "label" : {
+      "IRI-based" : "hasCompetentAuthority",
+      "undefined" : "has competent authority"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "Relates a manufacturer to the national competent authority that supervises it."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasIMDRFCode",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "hasIMDRFCode",
+      "undefined" : "has IMDRF code"
+    },
+    "domain" : "68",
+    "comment" : {
+      "undefined" : "The IMDRF terminology code identifying the risk type."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://www.example.org/emdco#hasManufacturerID",
+    "baseIri" : "http://www.example.org/emdco",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "hasManufacturerID",
+      "undefined" : "has manufacturer ID"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "The unique identifier of the manufacturer."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "145"
+  } ]
+}
