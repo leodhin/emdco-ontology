@@ -12,7 +12,7 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:index-en="https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#">
     <owl:Ontology rdf:about="https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html">
-        <dc:creator>Miguel Ángel Gata Luján</dc:creator>
+        <dc:creator>Miguel Ángel Gata Luján y Lorenzo Gamboa García</dc:creator>
         <dc:description>Ontology modelling the European catalogue of medical devices and in vitro diagnostics under MDR (EU 2017/745) and IVDR (EU 2017/746) regulatory frameworks, including manufacturers, risks, incidents and field safety corrective actions registered in EUDAMED.</dc:description>
         <dc:title>European Medical Device Catalogue Ontology (EMDCO)</dc:title>
         <owl:versionInfo>1.0.0</owl:versionInfo>

@@ -1,5 +1,5 @@
 <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html> <http://purl.org/dc/elements/1.1/creator> "Miguel Ángel Gata Luján" .
+<https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html> <http://purl.org/dc/elements/1.1/creator> "Miguel Ángel Gata Luján y Lorenzo Gamboa García" .
 <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html> <http://purl.org/dc/elements/1.1/description> "Ontology modelling the European catalogue of medical devices and in vitro diagnostics under MDR (EU 2017/745) and IVDR (EU 2017/746) regulatory frameworks, including manufacturers, risks, incidents and field safety corrective actions registered in EUDAMED." .
 <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html> <http://purl.org/dc/elements/1.1/title> "European Medical Device Catalogue Ontology (EMDCO)" .
 <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .

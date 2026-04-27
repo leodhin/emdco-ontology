@@ -1,0 +1,2170 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskClass"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#ID" : [ {
+    "@value" : "d"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "_:genid12"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "_:genid13"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.example.org/emdco#reportedBy"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#ID" : [ {
+    "@value" : "i"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#ID" : [ {
+    "@value" : "m"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.example.org/emdco#isActive"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#ID" : [ {
+    "@value" : "d"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "_:genid17"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.example.org/emdco#InVitroDiagnosticDevice"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#ID" : [ {
+    "@value" : "d"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.example.org/emdco#isImplantable"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#ID" : [ {
+    "@value" : "d"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isRelatedToRisk"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "_:genid21"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.example.org/emdco#isIVD"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#ID" : [ {
+    "@value" : "d"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "_:genid23"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.example.org/emdco#MedicalDevice"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#ID" : [ {
+    "@value" : "d"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "_:genid25"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.example.org/emdco#Incident"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#ID" : [ {
+    "@value" : "i"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "_:genid27"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.example.org/emdco#MedicalDevice"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#ID" : [ {
+    "@value" : "d"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "_:genid5"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.example.org/emdco#isManufacturedBy"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid43"
+    }, {
+      "@id" : "_:genid41"
+    }, {
+      "@id" : "_:genid39"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid45"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#i"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#ID" : [ {
+    "@value" : "d"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#i"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isRelatedToRisk"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#i"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#i"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousIncident"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid52"
+    }, {
+      "@id" : "_:genid50"
+    }, {
+      "@id" : "_:genid48"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid54"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#i"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#ID" : [ {
+    "@value" : "m"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#i"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#m"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#i"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#m"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#reportedBy"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid61"
+    }, {
+      "@id" : "_:genid59"
+    }, {
+      "@id" : "_:genid57"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid63"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#i"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousIncident"
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#i"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.example.org/emdco#ImplantableActiveDevice"
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#m"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy"
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#i"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#m"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#reportedBy"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#ID" : [ {
+    "@value" : "d"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "_:genid9"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "_:genid10"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.example.org/emdco#involvesDevice"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#ID" : [ {
+    "@value" : "i"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Germany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Germany"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Ireland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Ireland"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.example.org/emdco#Rule1",
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@id" : "_:genid31"
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@id" : "_:genid32"
+  } ]
+}, {
+  "@id" : "http://www.example.org/emdco#Rule2",
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@id" : "_:genid33"
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@id" : "_:genid34"
+  } ]
+}, {
+  "@id" : "http://www.example.org/emdco#Rule3",
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@id" : "_:genid35"
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@id" : "_:genid36"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#ID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrl#argument1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrl#argument2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrl#body",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrl#classPredicate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrl#head",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrl#propertyPredicate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Miguel Ángel Gata Luján y Lorenzo Gamboa García"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "Ontology modelling the European catalogue of medical devices and in vitro diagnostics under MDR (EU 2017/745) and IVDR (EU 2017/746) regulatory frameworks, including manufacturers, risks, incidents and field safety corrective actions registered in EUDAMED."
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "European Medical Device Catalogue Ontology (EMDCO)"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "1.0.0"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Abbott",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Abbott Medical Devices"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasAuthorizationNumber" : [ {
+    "@value" : "DE/2017/005678"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCompetentAuthority" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#BfArM"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasContactEmail" : [ {
+    "@value" : "regulatory@abbott.com"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCountry" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Germany"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDSRN" : [ {
+    "@value" : "SRN-DE-MED-0002"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasManufacturerID" : [ {
+    "@value" : "MAN-002"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasName" : [ {
+    "@value" : "Abbott Medical Devices"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActionType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The type of field safety corrective action taken by a manufacturer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Action Type"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActiveDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A medical device whose operation depends on a source of energy other than that generated by the human body."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Active Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActiveImplant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An active device that is intended to be totally or partially introduced into the human body."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Active Implant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActiveDevice"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#BfArM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CompetentAuthority"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Bundesinstitut für Arzneimittel und Medizinprodukte - German competent authority for medical devices."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "BfArM"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lowest risk class under IVDR."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Class A"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDRRiskClass"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Low-medium risk class under IVDR."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Class B"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDRRiskClass"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Medium-high risk class under IVDR."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Class C"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDRRiskClass"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassC_inst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Class C"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Highest risk class under IVDR."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Class D"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDRRiskClass"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lowest risk class under MDR."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Class I"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDRRiskClass"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIII",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Highest risk class under MDR."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Class III"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDRRiskClass"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIII_inst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIII"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Class III"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIIa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Medium-low risk class under MDR."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Class IIa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDRRiskClass"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIIb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Medium-high risk class under MDR."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Class IIb"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDRRiskClass"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Closed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The FSCA has been completed and closed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Closed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCAStatus"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Open"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Closed_inst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Closed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Closed"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CobasE801",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#InVitroDiagnosticDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "cobas e 801 Immunoassay Analyzer"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceID" : [ {
+    "@value" : "DEV-016"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceName" : [ {
+    "@value" : "cobas e 801 Immunoassay Analyzer"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIntendedPurpose" : [ {
+    "@value" : "Automated immunoassay analyzer for clinical laboratory"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRegulatoryFramework" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDR_inst"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskClass" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassC_inst"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasUDI" : [ {
+    "@value" : "(01)04015630001016"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isActive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isIVD" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isImplantable" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Roche"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isReusable" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CompetentAuthority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The national regulatory body responsible for supervising medical devices in a given EU member state."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Competent Authority"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A country in which a manufacturer is registered or an incident has been reported."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Country"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CriticalSeverity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Risk event that could directly cause death or irreversible harm."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Critical Severity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeverityLevel"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CriticalSeverity_inst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CriticalSeverity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Critical"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A corrective action taken by a manufacturer to reduce risk of death or serious deterioration in health associated with a device in the field."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Field Safety Corrective Action"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "FSCA-001 HeartMate 3 Safety Alert"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#addressesIncident" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2024-02-01"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionType" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SafetyAlert_inst"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription" : [ {
+    "@value" : "Safety alert regarding anticoagulation protocol update. INR target range revised to 2.0-3.0."
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDevicesAffectedCount" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "850"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDFSCARef" : [ {
+    "@value" : "EU-FSCA-2024-000001"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasFSCAID" : [ {
+    "@value" : "FSCA-001"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasScope" : [ {
+    "@value" : "All HeartMate 3 LVAD units implanted since 2020"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasStatus" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Open_inst"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "FSCA-002 Micra AV Recall"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#addressesIncident" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2024-02-28"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionType" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Recall_inst"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasClosureDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2024-05-31"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription" : [ {
+    "@value" : "Voluntary recall due to premature battery depletion. Replacement units provided."
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDevicesAffectedCount" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1240"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDFSCARef" : [ {
+    "@value" : "EU-FSCA-2024-000002"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasFSCAID" : [ {
+    "@value" : "FSCA-002"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasScope" : [ {
+    "@value" : "Micra AV lots manufactured between 2022-09 and 2023-03"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasStatus" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Closed_inst"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCAStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The current status of a field safety corrective action."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "FSCA Status"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Germany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Germany"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HPRA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CompetentAuthority"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Health Products Regulatory Authority - Irish competent authority for medical devices."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "HPRA"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ImplantableActiveDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "HeartMate 3 LVAD"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceID" : [ {
+    "@value" : "DEV-001"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceName" : [ {
+    "@value" : "HeartMate 3 LVAD"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIntendedPurpose" : [ {
+    "@value" : "Ventricular assist device for end-stage heart failure"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRegulatoryFramework" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR_inst"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskClass" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIII_inst"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasUDI" : [ {
+    "@value" : "(01)00380740009095"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isActive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isIVD" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isImplantable" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isReusable" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousIncident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "INC-001 HeartMate 3 Thrombosis"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCorrectiveActionTaken" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription" : [ {
+    "@value" : "Patient implanted with HeartMate 3 LVAD developed ischemic stroke 6 months post-implant."
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEventDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2024-01-08"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIncidentID" : [ {
+    "@value" : "INC-001"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasOutcome" : [ {
+    "@value" : "Serious patient injury - embolic stroke"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientAge" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "58"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientSex" : [ {
+    "@value" : "Male"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasReportDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2024-01-15"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HeartMate3"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isRelatedToRisk" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK003"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#reportedBy" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#INC002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousIncident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "INC-002 Micra AV Battery Depletion"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCorrectiveActionTaken" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription" : [ {
+    "@value" : "Micra AV pacemaker reached elective replacement indicator 14 months earlier than expected."
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEventDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2024-01-29"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIncidentID" : [ {
+    "@value" : "INC-002"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasOutcome" : [ {
+    "@value" : "Device malfunction - premature battery depletion"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientAge" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "72"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientSex" : [ {
+    "@value" : "Female"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasReportDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2024-02-03"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isRelatedToRisk" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK009"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#reportedBy" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "EU In Vitro Diagnostic Regulation 2017/746."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "IVDR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RegulatoryFramework"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDRRiskClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Risk class under EU IVDR 2017/746."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "IVDR Risk Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RiskClass"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDRRiskClass"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDR_inst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#IVDR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "IVDR 2017/746"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ImplantableActiveDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An active medical device intended to be totally or partially introduced into the human body."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Implantable Active Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ImplantableDevice"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ImplantableDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A medical device intended to be totally or partially introduced into the human body and to remain there after the procedure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Implantable Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice"
+  }, {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#InSituCorrection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Correction of a device at the user's location."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "In-Situ Correction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActionType"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#InVitroDiagnosticDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A medical device intended to examine specimens derived from the human body for diagnostic purposes, as defined under IVDR 2017/746."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "In Vitro Diagnostic Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A reportable event involving a medical device that has or could have led to patient harm, as defined under EU MDR Article 87."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Incident"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Ireland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Ireland"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "EU Medical Device Regulation 2017/745."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "MDR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RegulatoryFramework"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDRRiskClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Risk class under EU MDR 2017/745."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "MDR Risk Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RiskClass"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR_inst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "MDR 2017/745"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A legal entity that manufactures or places on the EU market a medical device and bears responsibility for its conformity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Manufacturer"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A medical device as defined under EU MDR 2017/745 or IVDR 2017/746, registered in EUDAMED."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Medical Device"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Medtronic plc"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasAuthorizationNumber" : [ {
+    "@value" : "IE/2017/001234"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCompetentAuthority" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#HPRA"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasContactEmail" : [ {
+    "@value" : "regulatory@medtronic.com"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCountry" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Ireland"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDSRN" : [ {
+    "@value" : "SRN-IE-MED-0001"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasManufacturerID" : [ {
+    "@value" : "MAN-001"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasName" : [ {
+    "@value" : "Medtronic plc"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MicraAV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActiveImplant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Micra AV Transcatheter Pacing System"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceID" : [ {
+    "@value" : "DEV-002"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceName" : [ {
+    "@value" : "Micra AV Transcatheter Pacing System"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIntendedPurpose" : [ {
+    "@value" : "Leadless cardiac pacemaker for atrioventricular synchrony"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRegulatoryFramework" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MDR_inst"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskClass" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ClassIII_inst"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasUDI" : [ {
+    "@value" : "(01)00380740009112"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isActive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isIVD" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isImplantable" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Medtronic"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isReusable" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ModerateSeverity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Risk event that causes moderate harm requiring medical intervention."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Moderate Severity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeverityLevel"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Open",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The FSCA is still ongoing."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Open"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCAStatus"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Open_inst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Open"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Open"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Thrombosis - device-related"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription" : [ {
+    "@value" : "Thrombus formation on device surface causing embolic events"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIMDRFCode" : [ {
+    "@value" : "A0201"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskID" : [ {
+    "@value" : "RSK-003"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskName" : [ {
+    "@value" : "Thrombosis - device-related"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasSeverity" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CriticalSeverity_inst"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RSK009",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Battery depletion - premature"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription" : [ {
+    "@value" : "Battery end-of-life earlier than specified, risking therapy interruption"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIMDRFCode" : [ {
+    "@value" : "A0501"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskID" : [ {
+    "@value" : "RSK-009"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskName" : [ {
+    "@value" : "Battery depletion - premature"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasSeverity" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CriticalSeverity_inst"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Recall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Removal of a device from the market or from use."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Recall"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActionType"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Recall_inst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Recall"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Recall"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RegulatoryFramework",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The EU regulation under which a medical device is classified and registered."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Regulatory Framework"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A potential hazard associated with a medical device, classified according to IMDRF terminology."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Risk"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RiskClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The regulatory risk classification assigned to a medical device based on its intended purpose and associated risks."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Risk Class"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Roche",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Roche Diagnostics GmbH"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasAuthorizationNumber" : [ {
+    "@value" : "DE/2017/007890"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCompetentAuthority" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#BfArM"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasContactEmail" : [ {
+    "@value" : "regulatory@roche.com"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCountry" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Germany"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDSRN" : [ {
+    "@value" : "SRN-DE-MED-0005"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasManufacturerID" : [ {
+    "@value" : "MAN-005"
+  } ],
+  "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasName" : [ {
+    "@value" : "Roche Diagnostics GmbH"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SafetyAlert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Communication to users regarding a safety issue."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Safety Alert"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActionType"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SafetyAlert_inst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SafetyAlert"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Safety Alert"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SelfTestDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An in vitro diagnostic device intended to be used by lay persons in a home environment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Self-Test Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#InVitroDiagnosticDevice"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousIncident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An incident that directly or indirectly led to death, serious deterioration of health, or a serious public health threat."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Serious Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident"
+  }, {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeriousSeverity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Risk event that causes serious but potentially reversible harm."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Serious Severity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeverityLevel"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeverityLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The degree of harm or impact associated with a risk event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Severity Level"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SingleUseDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A device intended to be used on one individual during a single procedure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Single-Use Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#UserNotice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Notice to users with instructions to avoid or mitigate risk."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "User Notice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActionType"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#addressesIncident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a field safety corrective action to the incident it addresses."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "addresses incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The date on which the FSCA was initiated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has action date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasActionType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates an FSCA to its type of corrective action."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has action type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#ActionType"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasAuthorizationNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The official registration number issued by the competent authority."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has authorization number"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasClosureDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The date on which the FSCA was closed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has closure date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCompetentAuthority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a manufacturer to the national competent authority that supervises it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has competent authority"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#CompetentAuthority"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasContactEmail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The regulatory contact email of the manufacturer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has contact email"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCorrectiveActionTaken",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates whether a corrective action was taken following the incident."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has corrective action taken"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasCountry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a manufacturer to the country where it is registered."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Country"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A textual description of the entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The unique identifier of the medical device."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has device ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDeviceName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The commercial name of the medical device."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has device name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasDevicesAffectedCount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The number of devices affected by the FSCA."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has devices affected count"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDFSCARef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The EUDAMED reference number for the FSCA."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has EUDAMED FSCA reference"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEUDAMEDSRN",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Single Registration Number assigned in EUDAMED."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has EUDAMED SRN"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasEventDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The date on which the incident event occurred."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has event date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasFSCAID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The unique identifier of the field safety corrective action."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has FSCA ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIMDRFCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The IMDRF terminology code identifying the risk type."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has IMDRF code"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIncidentID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The unique identifier of the incident."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has incident ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasIntendedPurpose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The clinical use for which the device is intended."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has intended purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasManufacturerID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The unique identifier of the manufacturer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has manufacturer ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The legal name of the manufacturer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasOutcome",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The clinical outcome of the incident."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has outcome"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientAge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The age of the patient involved in the incident."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has patient age"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasPatientSex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The sex of the patient involved in the incident."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has patient sex"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRegulatoryFramework",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a medical device to the EU regulation under which it is classified."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has regulatory framework"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RegulatoryFramework"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasReportDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The date on which the incident was reported to the competent authority."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has report date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a medical device to its regulatory risk classification."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has risk class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#RiskClass"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The unique identifier of the risk."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has risk ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasRiskName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The name of the risk as defined in the IMDRF terminology."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has risk name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasScope",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A description of the devices or lots affected by the FSCA."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has scope"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasSeverity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a risk to its severity level."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has severity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#SeverityLevel"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates an FSCA to its current status."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has status"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#FSCAStatus"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#hasUDI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Unique Device Identifier (UDI-DI) assigned to the device."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has UDI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#involvesDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates an incident to the medical device involved."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "involves device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isActive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates whether the device requires an energy source to operate."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "is active"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isIVD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates whether the device is an in vitro diagnostic device."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "is IVD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isImplantable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates whether the device is implantable."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "is implantable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isManufacturedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates a medical device to its registered manufacturer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "is manufactured by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isRelatedToRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates an incident to the risk that materialised."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "is related to risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Risk"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#isReusable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates whether the device can be used more than once."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "is reusable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#reportedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relates an incident to the manufacturer that reported it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "reported by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#Manufacturer"
+  } ]
+}, {
+  "@id" : "urn:swrl:var#d",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#i",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#m",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#r",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]

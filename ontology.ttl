@@ -7,7 +7,7 @@
 @base <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html#> .
 
 <https://leodhin.github.io/emdco-ontology/documentacion_emdco/index-en.html> rdf:type owl:Ontology ;
-                                                                              <http://purl.org/dc/elements/1.1/creator> "Miguel Ángel Gata Luján" ;
+                                                                              <http://purl.org/dc/elements/1.1/creator> "Miguel Ángel Gata Luján y Lorenzo Gamboa García" ;
                                                                               <http://purl.org/dc/elements/1.1/description> "Ontology modelling the European catalogue of medical devices and in vitro diagnostics under MDR (EU 2017/745) and IVDR (EU 2017/746) regulatory frameworks, including manufacturers, risks, incidents and field safety corrective actions registered in EUDAMED." ;
                                                                               <http://purl.org/dc/elements/1.1/title> "European Medical Device Catalogue Ontology (EMDCO)" ;
                                                                               owl:versionInfo "1.0.0" .
